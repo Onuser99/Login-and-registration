@@ -1,0 +1,60 @@
+body {
+    overflow-x: hidden;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 3.5rem;
+    transition: all 0.3s;
+
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 0.5rem;
+}
+
+
+.sidebar ul li a {
+
+    margin-left: 80px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar h3 {
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.sidebar ul li a:hover {
+    color: #adb5bd;
+}
+
+#prop {
+    margin-left: 70px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar li:hover {
+    background-color: #36454F;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+        padding-top: 2.5rem;
+    }
+}
